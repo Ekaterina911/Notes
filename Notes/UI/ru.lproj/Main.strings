@@ -1,0 +1,24 @@
+
+/* Class = "UITextField"; placeholder = "Название"; ObjectID = "5XX-ap-dO2"; */
+"5XX-ap-dO2.placeholder" = "Название";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "6YZ-e6-Qys"; */
+"6YZ-e6-Qys.text" = "Detail";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Agj-Sn-EKM"; */
+"Agj-Sn-EKM.title" = "Item";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "C2V-db-scI"; */
+"C2V-db-scI.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Заметки"; ObjectID = "KSb-cm-WyP"; */
+"KSb-cm-WyP.title" = "Заметки";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "ebQ-tF-Td3"; */
+"ebQ-tF-Td3.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Сохранить"; ObjectID = "jZE-Xg-ozp"; */
+"jZE-Xg-ozp.title" = "Сохранить";
+
+/* Class = "UISearcheBar"; placeholder = "Поиск"; ObjectID = "8hw-zL-7Mg"; */
+"8hw-zL-7Mg.placeholder" = "Поиск";

@@ -1,0 +1,24 @@
+
+/* Class = "UITextField"; placeholder = "Title"; ObjectID = "5XX-ap-dO2"; */
+"5XX-ap-dO2.placeholder" = "Title";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "6YZ-e6-Qys"; */
+"6YZ-e6-Qys.text" = "Detail";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Agj-Sn-EKM"; */
+"Agj-Sn-EKM.title" = "Item";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "C2V-db-scI"; */
+"C2V-db-scI.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Notes"; ObjectID = "KSb-cm-WyP"; */
+"KSb-cm-WyP.title" = "Notes";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "ebQ-tF-Td3"; */
+"ebQ-tF-Td3.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Save"; ObjectID = "jZE-Xg-ozp"; */
+"jZE-Xg-ozp.title" = "Save";
+
+/* Class = "UISearcheBar"; placeholder = "Search"; ObjectID = "8hw-zL-7Mg"; */
+"8hw-zL-7Mg.placeholder" = "Search";
