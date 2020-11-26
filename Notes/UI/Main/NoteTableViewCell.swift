@@ -1,6 +1,6 @@
 //
 //  NoteTableViewCell.swift
-//  ToDoList
+//  Notes
 //
 //  Created by EKATERINA  KUKARTSEVA on 30.09.2020.
 //  Copyright © 2020 EKATERINA  KUKARTSEVA. All rights reserved.

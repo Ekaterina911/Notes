@@ -1,6 +1,6 @@
 //
 //  Note+CoreDataProperties.swift
-//  ToDoList
+//  Notes
 //
 //  Created by EKATERINA  KUKARTSEVA on 03.10.2020.
 //  Copyright © 2020 EKATERINA  KUKARTSEVA. All rights reserved.

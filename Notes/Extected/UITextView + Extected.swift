@@ -1,6 +1,6 @@
 //
 //  UITextView + Extected.swift
-//  ToDoList
+//  Notes
 //
 //  Created by EKATERINA  KUKARTSEVA on 05.10.2020.
 //  Copyright © 2020 EKATERINA  KUKARTSEVA. All rights reserved.
@@ -30,7 +30,7 @@ extension UITextView {
         }
         set {
             let placeholderLabel = self.placeholderLabel
-            placeholderLabel.text = newValue
+            placeholderLabel.text = NSLocalizedString("\(newValue)", comment: "") //newValue
             placeholderLabel.font = self.font
             placeholderLabel.textColor = UIColor(named: "SecondaryTextColor")
             placeholderLabel.numberOfLines = 0
@@ -41,6 +41,16 @@ extension UITextView {
             placeholderLabel.frame.origin = CGPoint(x: textContainer.lineFragmentPadding, y: textContainerInset.top)
             
             textStorage.delegate = self
+        }
+    }
+    
+    @IBInspectable
+    var placeholderColor: UIColor {
+        set {
+            self.placeholderLabel.textColor = newValue
+        }
+        get {
+            return self.placeholderLabel.textColor
         }
     }
     

@@ -12,6 +12,7 @@
 		004A07822528B9CB00D06DF4 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004A07802528B9CB00D06DF4 /* Note+CoreDataProperties.swift */; };
 		0073EA2D2530F53500F6C206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009B14FA24F174C100132648 /* Main.storyboard */; };
 		0073EA3325323ADC00F6C206 /* UITextField + Extected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0073EA3225323ADC00F6C206 /* UITextField + Extected.swift */; };
+		008AB1CA25702AFD001F0351 /* KeyboardAccessoryToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008AB1C925702AFD001F0351 /* KeyboardAccessoryToolbar.swift */; };
 		008FD827252B283000371C5A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 008FD829252B283000371C5A /* Localizable.strings */; };
 		008FD871252B38FB00371C5A /* sf-ui-display-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 008FD870252B38FB00371C5A /* sf-ui-display-black.otf */; };
 		008FD879252B3B2600371C5A /* sf-ui-display-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 008FD874252B3B2600371C5A /* sf-ui-display-semibold.otf */; };
@@ -23,7 +24,7 @@
 		008FD886252B41D600371C5A /* UIView + Extected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FD885252B41D600371C5A /* UIView + Extected.swift */; };
 		009B14F524F174C100132648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B14F424F174C100132648 /* AppDelegate.swift */; };
 		009B14F724F174C100132648 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B14F624F174C100132648 /* SceneDelegate.swift */; };
-		009B14FF24F174C100132648 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 009B14FD24F174C100132648 /* ToDoList.xcdatamodeld */; };
+		009B14FF24F174C100132648 /* Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 009B14FD24F174C100132648 /* Notes.xcdatamodeld */; };
 		009B150124F174C500132648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009B150024F174C500132648 /* Assets.xcassets */; };
 		009B150424F174C500132648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009B150224F174C500132648 /* LaunchScreen.storyboard */; };
 		009B150C24F1750D00132648 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B150B24F1750D00132648 /* NoteTableViewController.swift */; };
@@ -39,6 +40,7 @@
 		004A077F2528B9CB00D06DF4 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
 		004A07802528B9CB00D06DF4 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0073EA3225323ADC00F6C206 /* UITextField + Extected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + Extected.swift"; sourceTree = "<group>"; };
+		008AB1C925702AFD001F0351 /* KeyboardAccessoryToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAccessoryToolbar.swift; sourceTree = "<group>"; };
 		008FD828252B283000371C5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		008FD82B252B283500371C5A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		008FD870252B38FB00371C5A /* sf-ui-display-black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-black.otf"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				009B150024F174C500132648 /* Assets.xcassets */,
 				009B150224F174C500132648 /* LaunchScreen.storyboard */,
 				009B150524F174C500132648 /* Info.plist */,
+				008AB1C925702AFD001F0351 /* KeyboardAccessoryToolbar.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -151,7 +154,7 @@
 			children = (
 				004A078D252A20BD00D06DF4 /* Note */,
 				00A66393252441D9004EE008 /* CoreData.swift */,
-				009B14FD24F174C100132648 /* ToDoList.xcdatamodeld */,
+				009B14FD24F174C100132648 /* Notes.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -262,12 +265,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008AB1CA25702AFD001F0351 /* KeyboardAccessoryToolbar.swift in Sources */,
 				003BD865251FBFC90097DF5E /* EditNoteViewController.swift in Sources */,
 				009B14F524F174C100132648 /* AppDelegate.swift in Sources */,
 				008FD886252B41D600371C5A /* UIView + Extected.swift in Sources */,
 				008FD881252B3C8700371C5A /* UITextView + Extected.swift in Sources */,
 				009B14F724F174C100132648 /* SceneDelegate.swift in Sources */,
-				009B14FF24F174C100132648 /* ToDoList.xcdatamodeld in Sources */,
+				009B14FF24F174C100132648 /* Notes.xcdatamodeld in Sources */,
 				00A66394252441DA004EE008 /* CoreData.swift in Sources */,
 				004A07812528B9CB00D06DF4 /* Note+CoreDataClass.swift in Sources */,
 				00A6639C2524CB69004EE008 /* NoteTableViewCell.swift in Sources */,
@@ -363,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -419,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,7 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 88KRW3HF29;
 				INFOPLIST_FILE = "$(SRCROOT)/Notes/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 88KRW3HF29;
 				INFOPLIST_FILE = "$(SRCROOT)/Notes/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,13 +495,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		009B14FD24F174C100132648 /* ToDoList.xcdatamodeld */ = {
+		009B14FD24F174C100132648 /* Notes.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				009B14FE24F174C100132648 /* ToDoList.xcdatamodel */,
 			);
 			currentVersion = 009B14FE24F174C100132648 /* ToDoList.xcdatamodel */;
-			path = ToDoList.xcdatamodeld;
+			path = Notes.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

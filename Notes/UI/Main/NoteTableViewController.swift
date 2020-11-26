@@ -1,6 +1,6 @@
 //
 //  TableViewController.swift
-//  ToDoList
+//  Notes
 //
 //  Created by EKATERINA  KUKARTSEVA on 22.08.2020.
 //  Copyright © 2020 EKATERINA  KUKARTSEVA. All rights reserved.
@@ -21,8 +21,7 @@ class NoteTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        navigationItem.titleView = searchBarView
-        tableView.tableHeaderView = searchBarView
+        navigationItem.titleView = searchBarView
         
         searchBarView.delegate = self
         

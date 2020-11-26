@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  ToDoList
+//  Notes
 //
 //  Created by EKATERINA  KUKARTSEVA on 22.08.2020.
 //  Copyright © 2020 EKATERINA  KUKARTSEVA. All rights reserved.
@@ -8,7 +8,6 @@
 
 import UIKit
 
-@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ToDoList
+//  Notes
 //
 //  Created by EKATERINA  KUKARTSEVA on 26.09.2020.
 //  Copyright © 2020 EKATERINA  KUKARTSEVA. All rights reserved.
@@ -22,9 +22,8 @@ class EditNoteViewController: UIViewController {
         
         updateUI()
         
-        let customView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 44))
-        customView.backgroundColor = UIColor.red
-        noteTitle.inputAccessoryView = customView
+        let accessoryView = KeyboardAccessoryToolbar()
+        noteText.inputAccessoryView = accessoryView
     }
     
     private func updateUI() {

@@ -1,6 +1,6 @@
 //
 //  UIView + Extected.swift
-//  ToDoList
+//  Notes
 //
 //  Created by EKATERINA  KUKARTSEVA on 05.10.2020.
 //  Copyright © 2020 EKATERINA  KUKARTSEVA. All rights reserved.
